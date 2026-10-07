@@ -4,7 +4,7 @@ import screenScan from "@/assets/screen-scan.png";
 import screenCompat from "@/assets/screen-compatibility.png";
 import SplinePlaceholder from "./SplinePlaceholder";
 
-const signatures = ["Ondas", "Nami", "Yaba", "Rizo", "Silmus", "Kurlu", "Spiro", "Coilya", "Zarha"];
+const signatures = ["Seda", "Amlis", "Plano", "Ondas", "Nami", "Yaba", "Rizo", "Silmus", "Kurlu", "Spiro", "Coilya", "Zarha"];
 
 const AppleIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
