@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import SplinePlaceholder from "./SplinePlaceholder";
 
 const families = [
+  { name: "Seda", color: "#E9C24F" },
+  { name: "Amlis", color: "#DBAE3B" },
+  { name: "Plano", color: "#C99728" },
   { name: "Ondas", color: "#F4C87A" },
   { name: "Nami", color: "#E8A94E" },
   { name: "Yaba", color: "#E88A30" },
@@ -35,12 +38,12 @@ const Families = () => (
           Vos familles capillaires
         </p>
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-kisiir-dark mb-4 tracking-tight max-w-3xl mx-auto">
-          9 signatures. Une seule promesse : des réponses qui{" "}
+          12 signatures. Une seule promesse : des réponses qui{" "}
           <span className="font-playfair text-kisiir-orange">vous ressemblent.</span>
         </h2>
         <p className="text-kisiir-text-mid max-w-2xl mx-auto text-lg">
           Kisiir ne s'arrête pas à « cheveux bouclés ».<br />
-          Nous identifions votre identité capillaire et vous associons à l'une des 9 Signatures Kisiir™.<br />
+          Nous identifions votre identité capillaire et vous associons à l'une des 12 Signatures Kisiir™.<br />
           Vous accédez à des avis et recommandations triés en priorité selon votre signature capillaire.
         </p>
       </motion.div>

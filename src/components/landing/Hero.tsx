@@ -4,7 +4,7 @@ import screenScan from "@/assets/screen-scan.png";
 import screenCompat from "@/assets/screen-compatibility.png";
 import SplinePlaceholder from "./SplinePlaceholder";
 
-const signatures = ["Ondas", "Nami", "Yaba", "Rizo", "Silmus", "Kurlu", "Spiro", "Coilya", "Zarha"];
+const signatures = ["Seda", "Amlis", "Plano", "Ondas", "Nami", "Yaba", "Rizo", "Silmus", "Kurlu", "Spiro", "Coilya", "Zarha"];
 
 const AppleIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -110,9 +110,9 @@ const Hero = () => {
             {/* Metrics */}
             <div className="flex flex-wrap gap-6 sm:gap-8 border-t border-kisiir-orange/[0.08] pt-6">
               {[
-                { num: "6 000", prefix: "+", label: "Avis collectés" },
-                { num: "6 000", prefix: "+", label: "Produits référencés" },
-                { num: "9", prefix: "", label: "Familles capillaires" },
+                { num: "9 000", prefix: "+", label: "Avis collectés" },
+                { num: "6 500", prefix: "+", label: "Produits référencés" },
+                { num: "12", prefix: "", label: "Familles capillaires" },
               ].map((s, i) => (
                 <div key={i}>
                   <p className="text-2xl font-extrabold text-kisiir-dark">

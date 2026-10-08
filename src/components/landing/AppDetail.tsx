@@ -9,7 +9,7 @@ const features = [
   { title: "Niveau de confiance", desc: "plus il y a d'avis, plus le score est fiable" },
   { title: "Salle de bain virtuelle", desc: "tous vos produits, au même endroit" },
   { title: "Système Kombs", desc: "contribuez et gagnez en reconnaissance" },
-  { title: "1200+ produits", desc: "une base fiable, enrichie en continu" },
+  { title: "+6 500 produits", desc: "une base fiable, enrichie en continu" },
 ];
 
 const compatFeatures = [
@@ -71,7 +71,7 @@ const AppDetail = () => {
             <span className="font-playfair text-kisiir-orange">curly</span>
           </h2>
           <p className="text-kisiir-text-mid text-lg mb-3 leading-relaxed">
-            Scores basés sur plus de 6 000 avis réels, collectés auprès de notre communauté.
+            Scores basés sur plus de 9 000 avis réels, collectés auprès de notre communauté.
           </p>
           <p className="text-kisiir-text-mid text-lg mb-8 leading-relaxed">
             Chaque score, chaque recommandation vient de personnes qui partagent votre famille capillaire. Zéro pub, zéro algorithme marketing.
